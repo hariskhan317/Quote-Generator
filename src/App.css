@@ -13,6 +13,18 @@
     height: 40px;
     width: 180px;
     background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none !important;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px #fff !important; 
+  }
+  .createQuotes{
+    height: 40px;
+    width: 180px;
+    margin-top: 40px;
+    background-color: #fff;
+    cursor: pointer;
     border-radius: 10px;
     border: none !important;
     font-weight: 600;
@@ -37,4 +49,39 @@
   .author{
     text-align: right;
     font-weight: 600;
+  }
+  .formModal{
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 35%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #0009;
+    width: 500px;
+    padding: 10px;
+    z-index: 1000;
+  }
+  .formModal input{
+    width: 97%;
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border: 1px solid #c4c7c5 !important;
+  }
+
+  .quoteButton{
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none !important;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px #fff !important; 
+    border: 1px solid #c4c7c5 !important;
   }

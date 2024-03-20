@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-// import GenerateQuotes from './components/GenerateQuotes'
+import CreateQuotes from './components/createQuotes'
 import bgColor from './colorPallet.js'
 
 function App() {
@@ -34,7 +34,10 @@ function App() {
     <div className="App" style={{ backgroundColor: currentBgColor.backgroundColor, height: '100vh' }}>
       <div className="Title">Quotes Generator</div>
       <button className='button' style={{ color: currentBgColor.backgroundColor }} onClick={handleGenerateQuote}>Generate Quotes</button>
-
+      <div>
+        <button className='createQuotes'>Create Quotes</button>
+      </div>
+      <CreateQuotes />
       <div className="card">
         {currentQuote && (
           <>
